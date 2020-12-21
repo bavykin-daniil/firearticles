@@ -14,22 +14,312 @@ body,
 .app {
   display: flex;
   flex-direction: column;
-  height: 100%;;
+  height: 100%;
 
   header,
   footer {
     flex: 0 0 auto;
   }
 
+  header,
+  main,
+  footer {
+    padding: 20px 20px;
+    transition: 0.9s;
+
+    @media screen and (max-width: 400px){
+      padding: 20px 10px;
+    }
+  }
+
   header {
-    height: 100px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    @media screen and (max-width:1440px){
+      height: 1050px;
+    }
+
+    @media screen and (max-width:992px){
+      height: 990px;
+    }
+
+    @media screen and (max-width:768px){
+      height: 860px;
+    }
+
+    @media screen and (max-width:586px){
+      height: 650px;
+    }
+
+    @media screen and (max-width:400px){
+      height: 540px;
+    }
+
+    .container {
+      position: relative;
+      height: 1100px;
+
+      .navBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+          width: 100px;
+          height: 100px;
+          cursor: pointer;
+  
+          img {
+            height: 100%;
+          }
+        }
+
+        ul {
+          list-style: none;
+
+          li {
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #ffffff;
+          }
+        }
+
+        .links,
+        .accountBtns {
+          z-index: 1;
+
+          ul {
+            display: flex;
+
+            li {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 0 5px;
+            }
+          }
+
+          @media screen and (max-width:992px) {
+            display: none;
+          }
+        }
+
+        .links {
+          padding-left: 300px;
+
+          ul {
+              li {
+                position: relative;
+                cursor: pointer;
+              
+              @media screen and (min-width:1920px) {
+                padding: 0 25px;
+              }
+            }
+
+            li::before {
+              content: '';
+              position: absolute;
+              top: 100%;
+              width: 0;
+              height: 2px;
+              border-radius: 10px;
+              background-color: #ffffff;
+              transition: 0.5s;
+            }
+
+            li:hover::before {
+              width: 75%;
+
+              @media screen and (min-width:1920px) {
+                width: 55%;
+              }
+            }
+          }
+        }
+
+        .accountBtns {
+          align-items: center;
+          
+          li:first-child {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            transition: 0.7s;
+            cursor: pointer;
+
+            img {
+              width: 32px;
+              height: 32px;
+            }
+          }
+
+          li:first-child:hover {
+            background-color: #ffffff3d;
+          }
+
+          li:last-child {
+            width: 170px;
+            height: 50px;
+            border: 2px solid #ffffff;
+            border-radius: 30px;
+            transition: 0.7s;
+            cursor: pointer;
+          }
+
+          li:last-child:hover {
+            background-color: #ffffff3d;
+          }
+        }
+
+        .mobileMenu {
+          display: none;
+          justify-content: center;
+          align-items: center;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          z-index: 1;
+          transition: 0.7s;
+
+          @media screen and (max-width:992px) {
+            display: flex;
+          }
+        }
+
+        .mobileMenu:hover {
+          background-color: #ffffff3d;
+        }
+      }
+
+      .data {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px;
+        height: 225px;
+        transition: 0.9s;
+
+        @media screen and (max-width:1200px) {
+          top: 50%;
+        }
+
+        @media screen and (max-width:992px) {
+          top: 45%;
+          width: 330px;
+        }
+
+        @media screen and (max-width:568px) {
+          top: 30%;
+          width: 330px;
+        }
+
+        @media screen and (max-width:400px) {
+          top: 27%;
+          width: 240px;
+          height: 170px;
+        }
+
+        h1 {
+          text-transform: uppercase;
+          letter-spacing: 10px;
+          font-size: 40px;
+
+          @media screen and (max-width:992px) {
+            font-size: 25px;
+          }
+
+          @media screen and (max-width:400px) {
+            letter-spacing: 5px;
+            font-size: 20px;
+          }
+        }
+
+        h2 {
+          letter-spacing: 2px;
+          font-size: 30px;
+          font-weight: 100;
+
+          @media screen and (max-width:992px) {
+            font-size: 18px;
+          }
+
+          @media screen and (max-width:400px) {
+            font-size: 15px;
+          }
+        }
+
+        button {
+          width: 220px;
+          height: 55px;
+          font-size: 16px;
+          text-transform: uppercase;
+          border-style: none;
+          border-radius: 30px;
+          background-color: #FFA738;
+          color: #ffffff;
+          transition: 0.7s;
+          cursor: pointer;
+        }
+
+        button:hover {
+          background-color: #ea8f1c
+        }
+      }
+
+    }
+
+    .background {
+      position: absolute;
+      top: -80%;
+      left: 20%;
+      transition: 0.9s;
+
+      @media screen and (max-width: 1440px){
+        top: -90%;
+      }
+
+      @media screen and (max-width: 768px){
+        top: -100%;
+        left: -10%;
+      }
+
+      @media screen and (max-width: 400px){
+        top: -94%;
+        left: -25%;
+      }
+    }
+
+    .phone {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      transition: 0.3s;
+      
+      @media screen and (max-width: 1440px){
+        top: 7%;
+        left: 28%;
+      }
+
+      @media screen and (max-width: 992px){
+        opacity: 0;
+      }
+    }
   }
 
   footer {
-    height: 150px;
+    width: 100%;
+    height: 200px;
   }
 
   main {
     flex: 1 0 auto;
+    width: 100%;
+    height: 500px;
   }
 }

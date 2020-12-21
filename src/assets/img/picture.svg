@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="709.592" height="808.912" viewBox="0 0 709.592 808.912">
+  <g id="picture" transform="matrix(0.829, -0.559, 0.559, 0.829, 0, 202.925)">
+    <path id="Контур_13" data-name="Контур 13" d="M362.889,173.7h-4V63.678A63.54,63.54,0,0,0,295.488,0H63.4A63.541,63.541,0,0,0,0,63.679v603.6a63.541,63.541,0,0,0,63.4,63.678H295.488a63.541,63.541,0,0,0,63.4-63.679V252.018h4Z" transform="translate(0 0)" fill="#3f3d56"/>
+    <path id="Контур_14" data-name="Контур 14" d="M280.552,0H250.257A22.686,22.686,0,0,1,248.1,21.139a22.467,22.467,0,0,1-18.669,9.993H96.471A22.467,22.467,0,0,1,77.8,21.141,22.686,22.686,0,0,1,75.644,0h-28.3A47.456,47.456,0,0,0,0,47.564V650.4a47.456,47.456,0,0,0,47.348,47.564h233.2A47.456,47.456,0,0,0,327.9,650.4V47.564A47.456,47.456,0,0,0,280.552,0Z" transform="translate(17.494 16.495)" fill="#fff"/>
+    <rect id="Прямоугольник_1" data-name="Прямоугольник 1" width="82.66" height="7.676" transform="translate(169.705 178.473)" fill="#ffc400"/>
+    <rect id="Прямоугольник_2" data-name="Прямоугольник 2" width="144.069" height="7.676" transform="translate(173.927 205.142)" fill="#e6e6e6"/>
+    <rect id="Прямоугольник_3" data-name="Прямоугольник 3" width="143.928" height="7.676" transform="translate(173.916 231.811)" fill="#e6e6e6"/>
+    <rect id="Прямоугольник_4" data-name="Прямоугольник 4" width="61.409" height="61.409" transform="translate(74.999 178.648)" fill="#ffc400"/>
+    <rect id="Прямоугольник_5" data-name="Прямоугольник 5" width="82.66" height="7.676" transform="translate(169.705 340.37)" fill="#ffc400"/>
+    <rect id="Прямоугольник_6" data-name="Прямоугольник 6" width="144.069" height="7.676" transform="translate(173.927 367.039)" fill="#e6e6e6"/>
+    <rect id="Прямоугольник_7" data-name="Прямоугольник 7" width="143.928" height="7.676" transform="translate(173.916 393.707)" fill="#e6e6e6"/>
+    <rect id="Прямоугольник_8" data-name="Прямоугольник 8" width="61.409" height="61.409" transform="translate(74.999 340.6)" fill="#ffc400"/>
+    <rect id="Прямоугольник_9" data-name="Прямоугольник 9" width="82.66" height="7.676" transform="translate(169.705 502.266)" fill="#ffc400"/>
+    <rect id="Прямоугольник_10" data-name="Прямоугольник 10" width="144.069" height="7.676" transform="translate(173.927 528.935)" fill="#e6e6e6"/>
+    <rect id="Прямоугольник_11" data-name="Прямоугольник 11" width="143.928" height="7.676" transform="translate(173.916 555.605)" fill="#e6e6e6"/>
+    <rect id="Прямоугольник_12" data-name="Прямоугольник 12" width="61.409" height="61.409" transform="translate(74.999 502.551)" fill="#ffc400"/>
+  </g>
+</svg>
